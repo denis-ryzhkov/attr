@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='attr',
-    version='0.1.0',
+    version='0.2.0',
     description='Simple decorator to set attributes of target function or class in a DRY way.',
     long_description='''
 
