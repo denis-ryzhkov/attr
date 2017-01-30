@@ -24,7 +24,7 @@ MIT License, see http://opensource.org/licenses/MIT
 
 def attr(**names_values):
     def set_target(target):
-        for name, value in names_values.iteritems():
+        for name, value in names_values.items():
             setattr(target, name, value)
         return target
     return set_target
