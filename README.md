@@ -19,6 +19,6 @@ Get it:
     sudo pip install attr
     from attr import attr
 
-attr version 0.2.0
+attr version 0.2.0  
 Copyright (C) 2013 by Denis Ryzhkov <denisr@denisr.com>  
 MIT License, see http://opensource.org/licenses/MIT
