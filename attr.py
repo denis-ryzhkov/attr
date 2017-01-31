@@ -17,14 +17,14 @@ Get it:
     sudo pip install attr
     from attr import attr
 
-attr version 0.1.0
+attr version 0.2.0
 Copyright (C) 2013 by Denis Ryzhkov <denisr@denisr.com>
 MIT License, see http://opensource.org/licenses/MIT
 '''
 
 def attr(**names_values):
     def set_target(target):
-        for name, value in names_values.iteritems():
+        for name, value in names_values.items():
             setattr(target, name, value)
         return target
     return set_target

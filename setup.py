@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='attr',
-    version='0.1.0',
+    version='0.2.0',
     description='Simple decorator to set attributes of target function or class in a DRY way.',
     long_description='''
 
@@ -32,6 +32,7 @@ Get it::
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
     py_modules=['attr'],
