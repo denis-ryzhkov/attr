@@ -19,6 +19,12 @@ Get it:
     sudo pip install attr
     from attr import attr
 
-attr version 0.2.0  
-Copyright (C) 2013 by Denis Ryzhkov <denisr@denisr.com>  
+New popular http://attrs.org used by https://pytest.org defines another "attr" package that shadows this "attr" module.  
+Please use "dry_attr" alias to unshadow it:
+
+    from dry_attr import attr
+    from dry_attr import dry_attr
+
+attr version 0.3.1  
+Copyright (C) 2013-2017 by Denis Ryzhkov <denisr@denisr.com>  
 MIT License, see http://opensource.org/licenses/MIT

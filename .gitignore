@@ -1,3 +1,5 @@
+*.pyc
 dist
 MANIFEST
-*.pyc
+attr.egg-info
+build

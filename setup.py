@@ -1,8 +1,8 @@
-from distutils.core import setup
+from setuptools import setup
 
 setup(
     name='attr',
-    version='0.2.0',
+    version='0.3.1',
     description='Simple decorator to set attributes of target function or class in a DRY way.',
     long_description='''
 
@@ -22,6 +22,13 @@ Get it::
     sudo pip install attr
     from attr import attr
 
+New popular `attrs.org <http://attrs.org>`_ used by `pytest.org <https://pytest.org>`_ defines another "attr" package that shadows this "attr" module.
+
+Please use "dry_attr" alias to unshadow it::
+
+    from dry_attr import attr
+    from dry_attr import dry_attr
+
 ''',
     url='https://github.com/denis-ryzhkov/attr',
     author='Denis Ryzhkov',
@@ -35,5 +42,5 @@ Get it::
         'Programming Language :: Python :: 3',
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
-    py_modules=['attr'],
+    py_modules=['attr', 'dry_attr'],
 )
