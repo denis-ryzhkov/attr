@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='attr',
-    version='0.3.1',
+    version='0.3.2',
     description='Simple decorator to set attributes of target function or class in a DRY way.',
     long_description='''
 
@@ -35,7 +35,6 @@ Please use "dry_attr" alias to unshadow it::
     author_email='denisr@denisr.com',
     license='MIT',
     classifiers=[
-        'Development Status :: 4 - Beta',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 2.7',

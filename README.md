@@ -25,6 +25,6 @@ Please use "dry_attr" alias to unshadow it:
     from dry_attr import attr
     from dry_attr import dry_attr
 
-attr version 0.3.1  
-Copyright (C) 2013-2017 by Denis Ryzhkov <denisr@denisr.com>  
-MIT License, see http://opensource.org/licenses/MIT
+attr version 0.3.2  
+Copyright (C) 2013-2022 by Denis Ryzhkov <denisr@denisr.com>  
+MIT License
